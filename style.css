@@ -1,0 +1,88 @@
+.container{
+    width: 70%;
+    background-color: lightblue;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: flex-start;
+}
+#logo{
+    margin-right: 5%;
+    margin-left: 1%;
+}
+.headtext{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+#fname{
+    width: 30%;
+    margin: 1%;
+}
+#mname{
+    width: 30%;
+    margin: 1%;
+}
+#lname{
+    width: 30%;
+    margin: 1%;
+}
+#date{
+    width: 46%;
+    margin: 1%;
+}
+#sid{
+    width: 46%;
+    margin: 1%;
+}
+#street{
+    width: 95%;
+    margin: 1%;
+}
+#city{
+    width: 46%;
+    margin: 1%;
+}
+#state{
+    width: 46%;
+    margin: 1%;
+}
+#country{
+    width: 46%;
+    margin: 1%;
+}
+#zip{
+    width: 46%;
+    margin: 1%;
+}
+#email{
+    width: 46%;
+    margin: 1%;
+}
+#ures{
+    width: 46%;
+    margin: 1%;
+}
+h2{
+    margin: 1%;
+}
+#cs{
+    color: red;
+}
+#comment{
+    width: 95%;
+    margin: 1%;
+}
+.lang{
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 1%;
+}
+#co{
+    width: 20%;
+    margin: 1%;
+}
+button{
+    margin: 1%;
+}

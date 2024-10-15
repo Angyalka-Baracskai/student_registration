@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./logo.png" alt="Lógó" id="logo">
+            <div class="headtext">
+                <h1 id="id">Student Registration Form</h1><br>
+                <p id="p">Fill out the form to apply for the training courses. You can consider your application accepted after you receive a conformation email.</p>
+            
+            </div>
+            </div>
+        <div class="information">
+            <form>
+                <h2>Student information</h2>
+                <input type="text" id="fname" name="fname" placeholder="First name" pattern="[A-ZÁÉÍÓŰŐ][a-záéőűíó]*">
+                <input type="text" id="mname" name="mname" placeholder="Middle name" pattern="[A-ZÁÉÍÓŰŐ][a-záéőűíó]*">
+                <input type="text" id="lname" name="lname" placeholder="Last name" pattern="[A-ZÁÉÍÓŰŐ][a-záéőűíó]*"><br>
+                <input type="date" id="date" name="Date of birth" placeholder="Date of Birth">
+                <input type="text" id="sid" name="sid" placeholder="Student id" pattern="[0-9]*">
+            </form>
+        </div>
+        <div class="address">
+            <form>
+                <h2>Adress</h2>
+                <input type="text" id="street" name="street" placeholder="Street adress" pattern="[A-ZÁÉÍÓŰŐ][a-záéőűíó]*"><br>
+                <input type="text" id="city" name="city" placeholder="City" pattern="[A-ZÁÉÍÓŰŐ][a-záéőűíó]*">
+                <input type="text" id="state" name="state" placeholder="State/ Provinence" pattern="[A-ZÁÉÍÓŰŐ][a-záéőűíó]*"><br>
+                <input type="text" id="country" name="country" placeholder="Country" pattern="[A-ZÁÉÍÓŰŐ][a-záéőűíó]*">
+                <input type="text" id="zip" name="zip" placeholder="Zip code" pattern="[0-9][A-Z][a-z]*"><br>
+            </form>
+        </div>
+        <div class="contant">
+            <form>
+                <h2>Contant information</h2>
+                <input type="email" id="email" name="email" placeholder="Email address">
+                <input type="tel" id="tel" name="Telephone number" pattern="[0-9]*">
+            </form>
+        </div>
+        <div class="courses">
+            <h2>Courses<span id="cs">*</span></h2>
+            <form>
+                <div class="lang">
+                <button type="button"><b>+</b>Add new record</button><br>
+                <select name="select1" size=”4” placeholder="Course" id="co">
+                    <option value="mu">Music</option>
+                    <option value="hi">History</option>
+                    <option value="ma">Math</option>
+                    <option value="co" selected>Course</option>
+                 </select>
+                 <select name="select2" size=”3” placeholder="Level" id="co">
+                    <option value="fi">First</option>
+                    <option value="se">Second</option>
+                    <option value="th">Third</option>
+                    <option value="le" selected>Level</option>
+                 </select>
+                    <select name="select3" size=”3” placeholder="Language" id="co">
+                        <option value="hu">Hungarian</option>
+                        <option value="en">English</option>
+                        <option value="da">Danish</option>
+                        <option value="la" selected>Language</option>
+                     </select>
+                     <select name="select4" size=”3” placeholder="Start date" id="co">
+                        <option value="egy">2024-08-05</option>
+                        <option value="ket">2024-09-05</option>
+                        <option value="har">2024-10-05</option>
+                        <option value="dat" selected>Start Date</option>
+                     </select>
+                 </div>
+                 
+
+                 <textarea name="description" id="comment" placeholder="Comments"></textarea>
+            </form>
+            
+
+        </div>
+    </div>
+</body>
+</html>
